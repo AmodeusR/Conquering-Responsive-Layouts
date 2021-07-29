@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+
+.main {
+  font-family: 'Roboto', sans-serif;
+  background: #23424A;
+  color: white;
+  padding: 4rem;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 900;
+  width: min(70%, 700px);
+  margin-bottom: 0;
+}
+
+.description {
+  font-size: 1.2rem;
+  font-weight: 300;
+  width: min(70%, 700px);
+}
+
+.cta {
+  margin-top: 2rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  background: #38CFD9;
+  border-radius: 50px;
+  border: none;
+}
+
+.cta:hover {
+  cursor: pointer;
+}
+
+
