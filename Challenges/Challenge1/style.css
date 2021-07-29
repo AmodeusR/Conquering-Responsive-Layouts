@@ -1,0 +1,15 @@
+.parent {
+  width: 80%;
+  margin: 0 auto;
+  background: lightgray;
+}
+
+.child {
+  font-family: sans-serif;
+  width: 50%;
+  padding: 2rem;
+}
+
+.child h1 {
+  margin-top: 0;
+}
