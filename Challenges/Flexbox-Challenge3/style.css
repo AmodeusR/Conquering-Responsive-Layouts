@@ -77,10 +77,6 @@ header {
     padding: 2rem;
 }
 
-.signin {
-    margin-left: auto;
-}
-
 .nav__list {
     display: flex;
     gap: 2rem;
@@ -140,4 +136,22 @@ header {
     text-align: center;
     color: #fff;
     background-color: #136c72;
+}
+
+
+@media (max-width: 850px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .hero__text,
+    .hero__img,
+    .primary-content,
+    .sidebar {
+        width: 100%;
+    }
+
+    .hero__img {
+        padding-top: 2em;
+    }
 }
